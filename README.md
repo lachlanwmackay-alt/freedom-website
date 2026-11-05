@@ -13,7 +13,7 @@ A plain HTML website: no build step, no framework.
 | `images/` | All photos and logos |
 
 ## How the pop-ups work
-- **Giving:** any link to `#give` opens Tithely's giving pop-up. If Tithely's script can't load, it opens Tithely in a small window instead. You can also share `freedomcco.com/#give`.
+- **Giving:** any link to `#give` opens a slide-out panel (built in `site.js`) with the Tithely giving form inside it, plus a link to open Tithely in its own window. You can also share `freedomcco.com/#give`.
 - **Church Center forms:** any form link ending in `?open-in-church-center-modal=true` opens as a pop-up (Church Center's script is in each page's `<head>`). On phones Church Center opens a new window instead.
 
 ## Deploying on Vercel
